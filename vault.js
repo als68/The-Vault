@@ -9,7 +9,7 @@ module.exports = function() {
 
     getValue: function (key){
       if (vault.hasOwnProperty('key')){
-        return value;
+        return vault.key;
       } else {
         return null;
       }
